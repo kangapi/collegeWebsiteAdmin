@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collège Belledonne Admin</title>
+</head>
+<body>
+
+<form action="http://localhost:3000/links" method="post">
+    <label for="name">Nom du lien</label>
+    <input type="text" name="name" id="name" required>
+    <label for="url">Adresse du lien</label>
+    <input type="text" name="url" id="url" required>
+    <label for="logo">URL du logo</label>
+    <input type="text" name="logo" id="logo" required>
+    <label for="shape">Couleur de la forme</label>
+    <select name="shape" id="shape" required>
+        <option value="blueShape.png">Bleu</option>
+        <option value="redShape.png">Rouge</option>
+        <option value="greenShape.png">Vert</option>
+    </select>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
